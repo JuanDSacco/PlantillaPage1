@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+// NavBar
+
+.divNavBarContainer{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #000;
+
+    .divLogo{
+        width: max-content;
+
+        .imgNavBarLogo{
+            width: 250px;
+            height: 250px;
+        }
+    }
+
+    .divNavBar{
+        width: max-content;
+
+        .ulNavBar{
+            padding: 0;
+            width: 400px;
+            display: flex;
+            justify-content: space-evenly;
+
+            #liHomeNavBar{
+                background-color: #fff;
+                color: #000;
+                border-radius: 10%;
+            }
+
+            .liNavBar{
+                list-style-type: none;
+                color: #fff;
+                font-size: 22px;
+                padding: 7px;
+            }
+        }
+    }
+}
+
+// Header 
+
+.divHeaderContainer{
+
+    position: relative;
+    width: auto;
+    background-color: #000;
+
+    .divTextHeader{
+        position: absolute;
+        top: 0;
+        left: 26%;
+        width: max-content;
+        height: auto;
+        z-index: 1;
+
+        .h1Header{
+            padding-top: 150px;
+            font-size: 66px;
+            color: #fff;
+        }
+
+        .h2Header{
+            color: #fff;
+            font-size: 40px;
+            padding-top: 10px;
+        }
+    }
+
+    .divBackgroundHeader{
+
+        .backgroundHeader{
+            width: 100%;
+            height: auto;
+        }
+    }
+
+}
